@@ -99,6 +99,8 @@ namespace Sorting_Algorithms
 							{
 								list.Add(x.Next());
 							}
+							Console.WriteLine("Your array is:");
+							Display(list.ToArray());
 							return list.ToArray();
 						}
 						else
